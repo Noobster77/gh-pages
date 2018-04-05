@@ -1,0 +1,21 @@
+
+h1{
+  font-family:Georgia;
+  font-size: 16px;
+  font-color: Blue;
+}
+
+p {
+  font-family: Helvetica
+  font-size: 14px;
+  font-color: Blue;
+  font-weight: 400;
+}
+
+ul {
+  font-size: 14px
+}
+
+li {
+  font-size: 12px;
+}
