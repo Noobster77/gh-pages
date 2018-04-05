@@ -17,16 +17,9 @@ h1{
   font-size:14px;
 }
 
-ul {
-  font-size: 12px;
-}
-
-li {
-  font-size: 12px;
-}
-
 ul, li {
-    border: 2px solid Red;
+    font-siz: 12px;
+    border: 1px solid Red;
 }
 
 img {
