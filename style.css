@@ -10,10 +10,12 @@ p {
   font-size: 14px;
   color: DodgerBlue;
   font-weight: 400;
+  border: 3px solid Blue;
 }
 
 ul {
   font-size: 14px
+  border: 1px solid Red;
 }
 
 li {
