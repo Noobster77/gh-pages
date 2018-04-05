@@ -15,9 +15,16 @@ p {
 
 ul {
   font-size: 12px
-  border: 2px solid Red;
 }
 
 li {
   font-size: 12px;
+}
+
+ul, li {
+    border: 2px solid Red;
+}
+
+img {
+  border:1px solid black;
 }
