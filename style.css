@@ -5,12 +5,16 @@ h1{
   color: Blue;
 }
 
-p {
+#Goals {
   font-family: "Helvetica";
   font-size: 14px;
   color: DodgerBlue;
   font-weight: 400;
-  border: 3px solid Blue;
+  border: 1px dotted Blue;
+}
+
+#AboutMe {
+  font-size:14px;
 }
 
 ul {
