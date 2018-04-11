@@ -8,7 +8,7 @@
   grid-template-columns: 1fr;
 }
 
-#nav {
+header {
  color: White;
  font-family: "Times New Roman";
 }
@@ -49,5 +49,5 @@ table, td, tr {
 .Frank
   {
     background-color: #ccffff;
-    padding: 20px;
+    margin: 0px 20px;
 }
