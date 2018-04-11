@@ -4,8 +4,13 @@
 #container {
   display: grid;
   background-color: #00008b;
-  grid-template-rows: repeat(5, 600px);
+  grid-template-rows: 300px 50px 400px 300px ;
   grid-template-columns: 1fr;
+}
+
+#nav {
+ color: White;
+ font-family: "Times New Roman";
 }
 
 h1{
