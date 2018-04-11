@@ -9,6 +9,7 @@
 }
 
 header {
+ display: flex;
  color: White;
  font-family: "Times New Roman";
 }
