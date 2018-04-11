@@ -16,13 +16,13 @@
 h1{
   font-family: "Georgia";
   font-size: 16px;
-  color: Blue;
+  color: White;
 }
 
 #Goals {
   font-family: "Helvetica";
   font-size: 14px;
-  color: DodgerBlue;
+  color: White;
   font-weight: 400;
   border: 1px dotted Blue;
 }
