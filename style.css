@@ -10,6 +10,7 @@
 
 header {
  display: flex;
+ grid-column: 1fr;
  color: White;
  font-family: "Times New Roman";
 }
