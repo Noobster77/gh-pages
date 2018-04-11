@@ -1,4 +1,13 @@
 
+
+
+#container {
+  display: grid;
+  background-color: #00008b;
+  grid-template-rows: repeat(5, 600px);
+  grid-template-columns: 1fr;
+}
+
 h1{
   font-family: "Georgia";
   font-size: 16px;
