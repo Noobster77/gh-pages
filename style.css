@@ -8,6 +8,10 @@
   grid-template-columns: 1fr;
 }
 
+#banner {
+  background-color: white;
+}
+
 header {
  display: flex;
  grid-column: 4fr;
