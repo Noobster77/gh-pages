@@ -45,6 +45,7 @@ ul, li {
 
 img {
   border:1px solid black;
+  padding: 10px 10px;
 }
 
 table, td, tr {
@@ -56,5 +57,5 @@ table, td, tr {
 .Frank
   {
     background-color: #ccffff;
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
