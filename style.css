@@ -55,9 +55,9 @@ img {
   padding: 10px 10px;
 }
 
-#self {
+img#self {
  float:left; 
- border:1px solid black;
+ border:2px solid black;
 }
 
 table, td, tr {
