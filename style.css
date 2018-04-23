@@ -46,7 +46,7 @@ h1{
 .hero-image{
  grid-area: hero; 
  background-image: url("https://raw.githubusercontent.com/Noobster77/noobster77.github.io/master/FJH.jpeg");
- height: 50%;
+ height: 100%;
  background-position: center;
  background-repeat: no-repeat;  
  background-size: cover;
