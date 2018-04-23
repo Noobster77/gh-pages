@@ -6,9 +6,15 @@
   background-color: #ccd4fc;
   grid-template-rows: 300px 50px 400px 500px ;
   grid-template-columns: 1fr;
+  grid-template-areas:
+    'banner'
+    'header'
+    'hero'
+    'body';
 }
 
 .banner {
+  grid-area: banner;
   background-color: white;
   font-size: 60px;
   color: #00008b;
@@ -17,6 +23,7 @@
 }
 
 header {
+ grid-area: header;
  display: flex;
  grid-column: 4fr;
  color: White;
@@ -37,6 +44,7 @@ h1{
 }
 
 .hero-image{
+ grid-area: hero; 
  background-image: url("https://raw.githubusercontent.com/Noobster77/noobster77.github.io/master/FJH.jpeg");
  height: 50%;
  background-position: center;
@@ -88,6 +96,7 @@ table, td, tr {
 
 .Frank
   {
+    grid-area: body;
     background-color: #e0e0ff;
     margin: 0px 10px;
 }
