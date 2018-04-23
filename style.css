@@ -3,7 +3,7 @@
 
 #container {
   display: grid;
-  background-color: #00008b;
+  background-color: #ccd4fc;
   grid-template-rows: 300px 50px 400px 500px ;
   grid-template-columns: 1fr;
 }
@@ -88,6 +88,6 @@ table, td, tr {
 
 .Frank
   {
-    background-color: #ccffff;
+    background-color: #e0e0ff;
     margin: 0px 10px;
 }
