@@ -4,7 +4,7 @@
 #container {
   display: grid;
   background-color: #ccd4fc;
-  grid-template-rows: 300px 50px 400px 500px ;
+  grid-template-rows: 300px 50px 800px 500px ;
   grid-template-columns: 1fr;
   grid-template-areas:
     'banner'
@@ -46,12 +46,14 @@ h1{
 .hero-image{
  grid-area: hero; 
  background-image: url("https://raw.githubusercontent.com/Noobster77/noobster77.github.io/master/FJH.jpeg");
- height: 100%;
- background-position: center;
- background-repeat: no-repeat;  
- background-size: cover;
- position: relative; 
-}
+  height: 100%;
+  background-position-y: 40%;
+  background-position-x: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;   
+}  
+
 
 .hero-text{
     text-align: center;
@@ -60,6 +62,11 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
 }
 
 #Goals {
@@ -76,6 +83,8 @@ h1{
 
 ul, li {
     font-siz: 12px;
+	margin-left: 5px;
+	list-style-position: inside;
 }
 
 img {
@@ -86,17 +95,18 @@ img#self {
  float:left; 
  border:2px solid black;
  padding: 0px;
+ margin: 0px 15px;
 }
 
 table, td, tr {
-  border: 2px solid black;
-  border-collapse: collapse;
-  padding: 5px;
+	background-color: white;
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 5px;
 }
 
 .Frank
   {
     grid-area: body;
-    background-color: #e0e0ff;
-    margin: 0px 10px;
-}
+    background-color: #a56365;
+   }
