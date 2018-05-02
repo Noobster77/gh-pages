@@ -1,11 +1,4 @@
 
-@media only screen and (device-width: 1280px),
-only screen and (max-width:1280px) {
-.css-element {
-yourcsscode:;
-}
-   }
-
 #container {
   display: grid;
   background-color: #ccd4fc;
