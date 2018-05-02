@@ -4,13 +4,14 @@
 #container {
   display: grid;
   background-color: #ccd4fc;
-  grid-template-rows: 300px 50px 600px 500px ;
+  grid-template-rows: 300px 50px 600px 500px 400px ;
   grid-template-columns: 1fr;
   grid-template-areas:
     'banner'
     'header'
     'hero'
-    'body';
+    'frank'
+	'about';
 }
 
 .banner {
@@ -25,17 +26,47 @@
 header {
  grid-area: header;
  display: flex;
- grid-column: 4fr;
  color: White;
+ background-color: #57616c;
  font-family: "Times New Roman";
  font-size: 28px;
  text-align: center;
+ align-items: center;
+ justify-content: center
 }
 
 header div {
  padding-right: 20px; 
 }
+.button{
+ background-color: #4d4b4e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:hover {
+	color:white
+	background-color: navyblue;
+	text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
 
 h1{
   font-family: "Montserrat" , "sans-serif";
@@ -72,6 +103,9 @@ h1{
   color: white;
 }
 
+.center {
+	text-align: center;
+}
 #Goals {
   font-family: "Helvetica";
   font-size: 14px;
@@ -95,10 +129,12 @@ img {
 }
 
 img#self {
- float:left; 
- border:2px solid black;
- padding: 0px;
- margin: 0px 15px;
+	width: 350px;
+    height: 438px;
+	float:left; 
+	border:2px solid black;
+	padding: 0px;
+	margin: 0px 15px;
 }
 
 table, td, tr {
@@ -108,8 +144,17 @@ table, td, tr {
 	padding: 5px;
 }
 
-.Frank
+#Frank
   {
-    grid-area: body;
-    background-color: #647484;
+	font-family: "Montserrat" , "sans-serif";
+    grid-area: frank;
+    background-color: #ebeceff7;
+	line-height: 250%
    }
+
+#About {
+	background-color: white;
+	font-family: "Montserrat", "sans-serif";
+	font-weight: 100;
+
+}	
