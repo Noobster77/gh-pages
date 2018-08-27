@@ -124,14 +124,17 @@ h1{
   color: White;
 }
 
+h2{
+  margin-top:0px;
+}
+
 .hero-image{
  grid-area: hero; 
  display:flex;
   filter: grayscale(1);
  background: url("https://raw.githubusercontent.com/Noobster77/noobster77.github.io/master/FJHero.jpg");
   height: 52.1vw;
-  background-position-y: 40%;
-  background-position-x: left;
+  background-position-y: 60%;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;   
